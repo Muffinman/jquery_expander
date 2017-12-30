@@ -1,0 +1,8 @@
+name: jQuery Expander
+type: module
+description: Field formatter to expand and collapse text of a field using jQuery Expander.
+core: 8.x
+package: Field Formatters
+
+dependencies:
+ - drupal:field
