@@ -153,7 +153,6 @@ class JQueryExpander extends FormatterBase {
     foreach ($items as $delta => $item) {
       // Render each element as markup.
       $element[$delta] = [
-        '#theme' => 'jquery_expander',
         '#type' => 'markup',
         '#markup' => $item->value,
         '#prefix' => '<div class="field-expander field-expander-' . $delta . '">',
